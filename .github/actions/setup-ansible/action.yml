@@ -35,4 +35,4 @@ runs:
         mkdir -p ~/.ssh/
         echo "${{ inputs.ssh_private_key }}" > ~/.ssh/id_rsa
         echo "${{ inputs.ansible_vault_pass }}" > "${{ inputs.working_directory }}/.vault_pass"
-        chmod 700 ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
