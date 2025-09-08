@@ -2,7 +2,7 @@ ungrouped:
   hosts:
      
     ovh_manager_v2:
-        aansible_host: 51.75.251.13
+        ansible_host: 51.75.251.13
         ansible_user: ubuntu
         ansible_port: 2522
         ansible_ssh_private_key_file: ~/.ssh/id_rsa
