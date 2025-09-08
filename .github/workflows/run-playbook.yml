@@ -22,7 +22,6 @@ on:
         default: ovh_manager_v2
         options:
           - all
-          - ovh_manager_beta
           - ovh_manager_v2
       
       tags:
